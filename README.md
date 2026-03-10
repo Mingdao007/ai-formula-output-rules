@@ -15,10 +15,12 @@ Install / Use:
 - Codex App: install the skill from this repo path `codex-app-formula-output-rules`
 - Claude Code CLI: copy or merge `claude-code-cli/CLAUDE.formula-rules.md` into your local `CLAUDE.md`
 
-Scope:
+Includes:
 
-- formula output rules only
-- no general teaching, memory, workflow, or personal preference rules
+- formula rendering rules
+- prose-versus-equation rules
+- equation numbering and layout rules
+- a Codex App skill and a Claude Code CLI rule excerpt
 
 Chinese:
 

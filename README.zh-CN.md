@@ -15,10 +15,12 @@
 - Codex App：从本仓库路径 `codex-app-formula-output-rules` 安装 skill
 - Claude Code CLI：把 `claude-code-cli/CLAUDE.formula-rules.md` 复制或合并到本地 `CLAUDE.md`
 
-范围：
+内容：
 
-- 只包含公式输出规则
-- 不包含通用教学、记忆、工作流或个人偏好规则
+- 公式渲染规则
+- prose 和 equation 的边界规则
+- 公式编号与布局规则
+- 一个 Codex App skill 和一份 Claude Code CLI 规则片段
 
 英文：
 

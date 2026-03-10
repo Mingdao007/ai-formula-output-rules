@@ -7,8 +7,8 @@ description: "Formula output rules for Codex App. Use when a reply will contain 
 
 Use this skill when writing math-heavy answers in Codex App.
 
-This skill only governs formula output. It does not replace broader teaching,
-memory, or workflow skills.
+This skill focuses on formula output in Codex App, especially displayed
+equations, prose-versus-equation boundaries, numbering, and layout.
 
 Read `references/common-principles.md` first.
 
@@ -53,8 +53,7 @@ Apply this skill when the answer includes any of:
 - Split long displayed equations before they overflow.
 - Prefer short aligned lines for multi-relation or matrix-heavy expressions.
 
-## Scope Boundaries
+## Focus
 
-- Do not import unrelated style rules into this skill.
-- Do not use this skill as a substitute for general teaching policy.
-- Keep the public rule set stable, minimal, and environment-specific.
+- Keep the skill centered on formula rendering, numbering, and layout.
+- Keep the published rule set stable, minimal, and environment-specific.

@@ -49,5 +49,4 @@
 
 - This public rule set is intentionally narrow.
 - It governs formula rendering, numbering, and layout only.
-- It does not prescribe full teaching structure, topic segmentation, or
-  cross-session behavior.
+- It is designed for math presentation in Codex App replies.

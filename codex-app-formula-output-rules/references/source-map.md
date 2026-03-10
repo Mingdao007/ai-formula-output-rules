@@ -12,7 +12,7 @@ This file maps the published public rules to the original local rule sources.
 
 ## Publishing policy
 
-- This repository republishes only the math-output subset.
+- This repository republishes the math-output subset.
 - When local rules conflict in wording, prefer the more recent refined math
   rule from `output-rule-summary.md` for Codex App.
-- Keep non-math personal workflow rules out of the public repo.
+- Keep the published set aligned with formula rendering, numbering, and layout.

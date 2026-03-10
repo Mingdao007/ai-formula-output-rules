@@ -2,7 +2,7 @@
 
 This file is a minimal copyable excerpt for `Claude Code CLI`.
 
-Merge it into your local `CLAUDE.md`. Do not replace unrelated local rules.
+Merge it into your local `CLAUDE.md` as the formula-rules section.
 
 ## Formula Rendering
 

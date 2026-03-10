@@ -25,8 +25,9 @@ this repository.
 - Within one indexed family, keep indexing style consistent from start to
   finish.
 
-## 5. Publish only the math rules
+## 5. Published rule set
 
-- This repository excludes general teaching structure, memory rules, page
-  reference rules, agent workflow rules, and personal style preferences that do
-  not directly affect formula output.
+- Formula rendering rules
+- Environment-specific math formatting rules
+- Prose-versus-equation boundary rules
+- Equation numbering and layout rules
