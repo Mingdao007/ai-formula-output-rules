@@ -1,0 +1,3 @@
+interface:
+  display_name: "Codex App Formula Output Rules"
+  short_description: "Formula rendering, numbering, and layout rules for Codex App"
