@@ -32,11 +32,10 @@ this repository.
 - Prose-versus-equation boundary rules
 - Equation numbering and layout rules
 
-## 6. Language transfer
+## 6. Language scope
 
-- The published examples come from a Chinese-first workflow.
-- The formula rules themselves are mostly language-neutral.
-- To transfer the rule set to English, keep the same displayed-equation
-  boundary, numbering, and overflow rules, and localize only the prose layer.
-- In particular, change equation-reference wording from forms such as
-  `式 (1.3)` to forms such as `Eq. (1.3)` when writing in English.
+- The formula rules are intended to be language-agnostic.
+- Keep displayed-equation boundaries, numbering, and overflow rules the same
+  across languages.
+- Localize only short prose labels when needed, for example equation-reference
+  wording such as `式 (1.3)` or `Eq. (1.3)`.

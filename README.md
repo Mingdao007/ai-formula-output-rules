@@ -21,12 +21,7 @@ Includes:
 - prose-versus-equation rules
 - equation numbering and layout rules
 - a Codex App skill and a Claude Code CLI rule excerpt
-
-Language profile:
-
-- this public rule set is extracted from a Chinese-first workflow
-- English users can keep the same math boundary, numbering, and layout rules
-- transfer the prose layer by replacing Chinese reference phrases such as `式 (1.3)` with English forms such as `Eq. (1.3)`
+- language-agnostic math presentation rules with localized prose labels when needed
 
 Chinese:
 

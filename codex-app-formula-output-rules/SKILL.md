@@ -10,9 +10,9 @@ Use this skill when writing math-heavy answers in Codex App.
 This skill focuses on formula output in Codex App, especially displayed
 equations, prose-versus-equation boundaries, numbering, and layout.
 
-The published rule set is Chinese-first at the prose layer, but the formula
-layout rules transfer cleanly to English by localizing prose labels and
-equation-reference wording.
+The published rule set aims to stay language-agnostic. Keep the math boundary,
+numbering, and layout rules stable, and localize only short prose labels such
+as equation-reference wording when needed.
 
 Read `references/common-principles.md` first.
 
