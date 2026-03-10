@@ -4,6 +4,9 @@ This file is a minimal copyable excerpt for `Claude Code CLI`.
 
 Merge it into your local `CLAUDE.md` as the formula-rules section.
 
+The CLI rendering rules are mostly language-neutral. Localize only the prose
+surrounding the formulas when writing in English instead of Chinese.
+
 ## Formula Rendering
 
 - Do not use `$$...$$` or `$...$` LaTeX blocks.

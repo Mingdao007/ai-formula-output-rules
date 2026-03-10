@@ -43,8 +43,9 @@
 - When moving to the next numbered reply, advance the first number and restart
   the second number at `1`.
 - Put equation numbers on the right, not on the left.
-- In prose, refer to equation numbers as plain text such as `式 (1.3)` or
-  `(1.3)`.
+- In prose, refer to equation numbers as plain text.
+- For Chinese output, use forms such as `式 (1.3)` or `(1.3)`.
+- For English output, use forms such as `Eq. (1.3)` or `(1.3)`.
 - When multiple displayed equations form one tightly coupled definition block,
   prefer one shared number.
 

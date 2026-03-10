@@ -31,3 +31,12 @@ this repository.
 - Environment-specific math formatting rules
 - Prose-versus-equation boundary rules
 - Equation numbering and layout rules
+
+## 6. Language transfer
+
+- The published examples come from a Chinese-first workflow.
+- The formula rules themselves are mostly language-neutral.
+- To transfer the rule set to English, keep the same displayed-equation
+  boundary, numbering, and overflow rules, and localize only the prose layer.
+- In particular, change equation-reference wording from forms such as
+  `式 (1.3)` to forms such as `Eq. (1.3)` when writing in English.

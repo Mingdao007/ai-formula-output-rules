@@ -10,6 +10,10 @@ Use this skill when writing math-heavy answers in Codex App.
 This skill focuses on formula output in Codex App, especially displayed
 equations, prose-versus-equation boundaries, numbering, and layout.
 
+The published rule set is Chinese-first at the prose layer, but the formula
+layout rules transfer cleanly to English by localizing prose labels and
+equation-reference wording.
+
 Read `references/common-principles.md` first.
 
 Read `references/codex-app-rules.md` when the reply will contain displayed
