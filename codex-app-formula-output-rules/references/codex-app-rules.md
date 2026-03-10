@@ -7,6 +7,10 @@
   should use plain language or short Unicode symbols instead.
 - If an expression is formal enough to require LaTeX, move it into a displayed
   equation block.
+- In prose, isolated symbol names may appear when necessary, but
+  relation-bearing expressions may not.
+- If a phrase would read as a formula rather than a name, move it into the next
+  displayed equation block.
 
 ## Prose-Math Gate
 
@@ -18,6 +22,17 @@
   displayed equation.
 - Keep inline symbols short and readable when they remain in prose, for
   example `ẋ`, `θ₀`, `ψ₀`, `φ`, `θ`, `ψ`.
+- Do not leave inline equalities or other formula-shaped snippets in prose,
+  even when the notation is visually simple.
+- Sentences may introduce the role of the next formula in plain language, but
+  the actual mathematical relation should appear only in the displayed equation
+  block that follows.
+
+## Default State-Space Naming
+
+- For state-space definitions, use `x` as the default state variable name.
+- Change the state symbol only when the user explicitly requests another
+  notation or when the cited source fixes a different symbol.
 
 ## Equation Numbering
 
