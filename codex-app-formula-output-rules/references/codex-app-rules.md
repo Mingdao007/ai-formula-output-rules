@@ -27,6 +27,20 @@
 - Sentences may introduce the role of the next formula in plain language, but
   the actual mathematical relation should appear only in the displayed equation
   block that follows.
+- Keep recap lines, bullets, and other sentence-level summaries formula-free.
+- If a recap needs an exact relation, place that relation in its own displayed
+  equation block and keep the surrounding prose natural-language only.
+
+## Inline Code Boundary
+
+- Use inline code only for short atomic identifiers such as command names,
+  environment variables, filenames, model names, API names, or one bare code
+  symbol.
+- Keep paper titles, method names, and ordinary technical terms in normal
+  prose.
+- Do not use inline code as a workaround for math rendering inside prose.
+- If the content is mathematical enough to need special rendering, move it into
+  the next displayed equation block instead.
 
 ## Default State-Space Naming
 
