@@ -14,7 +14,7 @@ This repository is the rendering-rules half of the public stack. It pairs well
 with a separate explanation skill such as
 `codex-app-explain-skill`, which owns teaching-route selection.
 
-## What ships
+## What Ships
 
 - installable skill:
   [`codex-app-formula-output-rules`](./codex-app-formula-output-rules)
@@ -40,7 +40,30 @@ with a separate explanation skill such as
 - language-agnostic math presentation rules with localized prose labels when
   needed
 
-## Repository layout
+## Privacy Boundary
+
+This public repository keeps the published rule set narrow and reusable.
+
+- It excludes personal memory files, private workflow state, and local-only
+  companion automation.
+- It publishes no user-specific absolute paths inside the rule payloads.
+- It keeps examples generic rather than tied to one course, institution, or
+  identity.
+
+## Companion Boundary
+
+This repository is the rendering companion, not the teaching-route owner.
+
+- It owns formula rendering, prose-versus-equation boundaries, numbering, and
+  display-safe cleanup for quoted symbolic text.
+- It does not own teaching-mode selection, prerequisite routing, or reading
+  workflow orchestration.
+- In sentence-by-sentence paper reading, the reading workflow and the decision
+  to clean a quoted source belong to `codex-app-explain-skill`; this
+  repository keeps the narrower symbol-cleanup subset for rendering
+  consistency.
+
+## Repository Layout
 
 - `codex-app-formula-output-rules/`: installable `Codex App` skill
 - `codex-app-formula-output-rules/references/`: published reference subset

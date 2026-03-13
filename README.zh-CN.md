@@ -39,6 +39,26 @@ skill 配合使用，例如 `codex-app-explain-skill` 负责 teaching route，
 - `Codex App` 与 `Claude Code CLI` 的环境分流
 - 尽量语言无关的数学表达规则；必要时只本地化 prose 里的引用词
 
+## 隐私边界
+
+这个公开仓库保持规则集窄而可复用。
+
+- 不包含个人 memory 文件、私有 workflow 状态或本地专用 companion。
+- 发布内容里不嵌入用户私有绝对路径。
+- 示例保持通用，不绑定单一课程、机构或个人身份。
+
+## Companion Boundary
+
+这个仓库是 rendering companion，不是 teaching-route owner。
+
+- 它负责公式渲染、prose 与 equation 的边界、编号，以及引用符号文本的
+  display-safe cleanup。
+- 它不负责 teaching mode 选择、前置概念路线或 reading workflow
+  orchestration。
+- 在逐句读 paper 里，是否清理 quoted source 以及如何嵌入阅读流程，应由
+  `codex-app-explain-skill` 决定；本仓库只保留更窄的 symbol-cleanup
+  子集来保证 rendering consistency。
+
 ## 仓库结构
 
 - `codex-app-formula-output-rules/`：可安装的 `Codex App` skill

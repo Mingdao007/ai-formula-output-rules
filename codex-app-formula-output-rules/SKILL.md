@@ -56,6 +56,8 @@ Apply this skill when the answer includes any of:
 - If quoted source text contains OCR-style ASCII math fragments, normalize that
   quote into a readable Unicode form while preserving the original wording and
   meaning.
+  Use this as a rendering cleanup only. A companion explanation skill should
+  own whether that quote appears and how it fits into a paper-reading workflow.
 
 ### 3. Format the displayed equations
 

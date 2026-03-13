@@ -21,6 +21,8 @@
 - Preserve the original wording order and meaning.
 - Do not use this cleanup rule to paraphrase, translate, or add explanation
   inside the quote.
+- Treat this as a rendering subset only. Teaching-route ownership for
+  sentence-by-sentence paper reading belongs to a separate explanation skill.
 
 ## Prose-Math Gate
 
