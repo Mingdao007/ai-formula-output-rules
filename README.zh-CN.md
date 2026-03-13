@@ -36,6 +36,7 @@ skill 配合使用，例如 `codex-app-explain-skill` 负责 teaching route，
 - prose 和 equation 的边界规则
 - 公式编号与布局规则
 - 引用原文里 OCR 风格符号的 Unicode 友好清理
+- 长回复在明显转折点处使用 divider 的窄 rendering 子集
 - `Codex App` 与 `Claude Code CLI` 的环境分流
 - 尽量语言无关的数学表达规则；必要时只本地化 prose 里的引用词
 
@@ -58,6 +59,8 @@ skill 配合使用，例如 `codex-app-explain-skill` 负责 teaching route，
 - 在逐句读 paper 里，是否清理 quoted source 以及如何嵌入阅读流程，应由
   `codex-app-explain-skill` 决定；本仓库只保留更窄的 symbol-cleanup
   子集来保证 rendering consistency。
+- 在长解释里，divider 的窄布局子集也可以由这里发布，但“什么时候算一次
+  workflow 转折”仍不归这个仓库决定。
 
 ## 仓库结构
 

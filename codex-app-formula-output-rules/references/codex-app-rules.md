@@ -87,6 +87,19 @@
 - If a displayed line reads like a sentence with symbols instead of one compact
   formula, split it before sending.
 
+## Long-Reply Divider Guidance
+
+- In long explanations, long horizontal dividers may be used at clear
+  structural transitions rather than after every paragraph.
+- Typical transition points include:
+  - after a direct verdict
+  - after a local example block
+  - before returning to a lower-level source or derivation
+  - before a paragraph-level or section-level synthesis block
+- Treat this as a rendering and layout subset only.
+- A companion explanation skill or host workflow should own the teaching-route
+  decision for whether a given transition exists.
+
 ## Minimal Use Rule
 
 - This public rule set is intentionally narrow.

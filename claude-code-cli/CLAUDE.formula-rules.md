@@ -45,6 +45,9 @@ the surrounding prose when needed.
 
 - Spread formulas vertically when that improves readability.
 - Break complex expressions into multiple lines.
+- In long replies, a horizontal separator may be used between major
+  explanation blocks when that materially improves scanability.
+- Do not force a separator after every paragraph.
 - Use ASCII tables for variable definitions when helpful.
 - Use simple ASCII layouts for vectors and matrices:
 

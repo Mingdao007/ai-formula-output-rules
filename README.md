@@ -36,6 +36,8 @@ with a separate explanation skill such as
 - prose-versus-equation rules
 - equation numbering and layout rules
 - reading-friendly Unicode cleanup for quoted OCR-style symbolic text
+- long-reply divider guidance at clear structural transitions as a narrow
+  rendering subset
 - environment split between `Codex App` and `Claude Code CLI`
 - language-agnostic math presentation rules with localized prose labels when
   needed
@@ -62,6 +64,9 @@ This repository is the rendering companion, not the teaching-route owner.
   to clean a quoted source belong to `codex-app-explain-skill`; this
   repository keeps the narrower symbol-cleanup subset for rendering
   consistency.
+- In long explanations, this repository may publish the narrower divider-layout
+  subset for major transitions, but it does not own the workflow decision for
+  when a transition exists.
 
 ## Repository Layout
 

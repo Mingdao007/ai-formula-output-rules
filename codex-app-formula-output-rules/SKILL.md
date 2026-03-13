@@ -77,6 +77,12 @@ Apply this skill when the answer includes any of:
 
 - Split long displayed equations before they overflow.
 - Prefer short aligned lines for multi-relation or matrix-heavy expressions.
+- In long replies, allow long horizontal dividers at major structural
+  transitions such as after a local example, before a synthesis block, or
+  before returning to a lower-level source.
+- Treat that divider rule as a narrow layout and readability subset only. A
+  companion explanation skill should still own the teaching-route decision for
+  where those transitions come from.
 
 ## Focus
 
