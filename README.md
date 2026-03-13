@@ -10,6 +10,10 @@ This repository ships one installable `Codex App` skill and one copyable
 rendering, prose-versus-equation boundaries, equation numbering, and
 overflow-safe layout.
 
+This repository is the rendering-rules half of the public stack. It pairs well
+with a separate explanation skill such as
+`codex-app-explain-skill`, which owns teaching-route selection.
+
 ## What ships
 
 - installable skill:
@@ -31,6 +35,7 @@ overflow-safe layout.
 - formula rendering rules
 - prose-versus-equation rules
 - equation numbering and layout rules
+- reading-friendly Unicode cleanup for quoted OCR-style symbolic text
 - environment split between `Codex App` and `Claude Code CLI`
 - language-agnostic math presentation rules with localized prose labels when
   needed

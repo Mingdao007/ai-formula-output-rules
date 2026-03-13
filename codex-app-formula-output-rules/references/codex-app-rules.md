@@ -12,6 +12,16 @@
 - If a phrase would read as a formula rather than a name, move it into the next
   displayed equation block.
 
+## Source Quote Readability
+
+- When quoted source text contains OCR noise or ASCII-style symbol rendering,
+  normalize it into a reading-friendly Unicode form before showing the quote.
+- Allowed cleanup includes obvious superscripts, arrows, set symbols, and
+  broken spacing around symbolic fragments.
+- Preserve the original wording order and meaning.
+- Do not use this cleanup rule to paraphrase, translate, or add explanation
+  inside the quote.
+
 ## Prose-Math Gate
 
 - Do not leave raw LaTeX control words in prose.
@@ -80,3 +90,5 @@
 - This public rule set is intentionally narrow.
 - It governs formula rendering, numbering, and layout only.
 - It is designed for math presentation in Codex App replies.
+- Explanation routing, paragraph structure, and teaching-mode selection belong
+  to a separate explanation workflow.
